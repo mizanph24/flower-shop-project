@@ -237,4 +237,33 @@ header{
     border: none;
     outline: none;
 }
+footer{
+    background: #111010;
+}
+.footer-content{
+    text-align: center;
+    padding: 100px 0;
+    width: 50%;
+    margin: auto;
+    
+}
+.footer-title{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+ }
 
+.footer-descrip{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 25px 0;
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    margin: 25px 0;
+}
