@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Golobal */
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+section{
+    margin: 64px auto;
+}
+.section-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.section-descrip{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 12px 0;
+}
+
+button{
+    padding: 15px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 12;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+button:hover{
+    background: #ca2549;
+    color: rgb(1, 201, 17);
+}
+
+
+
+/* header CSS */
+header{
+    height: 600px;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 0 0 0 ;
+}
+.header-title{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+.header-contenct{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 100px
+}
+.header-text{
+    width: 708px;
+}
+.header-img{
+    background-image: url('../flower-asset/pngwing10.png');
+    background-position: center bottom;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 635px;
+    height: 600px;
+}
+.header-img img{
+    width: 100%;
+}
+
+/* feature CSS */
+.feature-descip{
+    width: 50%;
+    margin: 12px auto;
+}
+.feature-text{
+    text-align: center;
+}
+.feature_item{
+    text-align: center;
+}
+.feature-img{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px
+}
+
+.feature-bg1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width:310px;
+    height: 360px;
+    text-align: center;
+   
+}
+.feature-img1{
+    background-image: url('../flower-asset/pngwing6.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center bottom;
+    width: 200px;
+    height: 360px;
+    margin: auto;
+}
+.feature-bg2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);    
+    width:310px;
+    height: 360px;
+    text-align: center;
+}
+.feature-img2{
+    background-image: url('../flower-asset/pngwing5.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center center;
+    width: 200px;
+    height: 360px;
+    margin: auto;
+}
+.feature-bg3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width:310px;
+    height: 360px;
+    text-align: center;
+}
+.feature-img3{
+    background-image: url('../flower-asset/pngwing7.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center bottom;
+    width: 200px;
+    height: 360px;
+    margin: auto;
+}
+.feature-img h4{
+    text-decoration: underline;
+    margin-top: 32px;
+}
+/* Service CSS */
+.service-items{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 80px   80px;
+}
+.service-item{
+    text-align: center;
+    
+}
+.service-item-text{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-top: 24px;
+}
+
+/* hot-deal CSS */
+#hot-deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.hot-deal-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+.hot-deal-text{
+    width: 60%;
+}
+
+.hot-deal-image{
+    width: 40%;
+}
+
+.important{
+    color: #ca2549;
+}
+/* instagram CSS */
+.instagram-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.instagram-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.instagram-image img{
+    width: 230px;
+}
+/* subscribe CSS */
+.subscribe-area{
+    /* height: 400px; */
+    background-image: url('../flower-asset/Rectangle9.png');
+    background-position: center center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+   text-align: center;
+   padding: 120px 0;
+}
+.subscribe-text{
+    text-align: center;
+}
+.subscribe-form{
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    margin-top: 40px;
+}
+.subscribe-form input{
+    padding: 18px;
+    width: 400px;
+    border: none;
+    outline: none;
+}
+
